@@ -25,7 +25,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil3.compose.SubcomposeAsyncImage
-import pt.iade.ei.android_studio_pm_task.DetailActivity
+import pt.iade.ei.android_studio_pm_task.ContentDetailActivity
 import pt.iade.ei.android_studio_pm_task.information.contentItemListInformation
 import pt.iade.ei.android_studio_pm_task.models.ContentItem
 
@@ -41,7 +41,7 @@ fun RatedContentListItem(
             horizontal = 5.dp
         ),
         onClick = {
-            val intent = Intent(context, DetailActivity::class.java)
+            val intent = Intent(context, ContentDetailActivity::class.java)
             intent.putExtra("item", item)
             context.startActivity(intent)
         }

@@ -10,7 +10,7 @@ import pt.iade.ei.android_studio_pm_task.models.ContentItem
 import pt.iade.ei.android_studio_pm_task.ui.theme.AndroidstudioPMtaskTheme
 
 
-class DetailActivity : ComponentActivity() {
+class ContentDetailActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
